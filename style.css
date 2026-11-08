@@ -21,7 +21,7 @@
 .search-bar {
   margin-left: 80px;
   border: 1px solid #e5e7eb;
-  width: 50%;
+  width: 60%;
   padding: 10px;
   /* word-spacing: 10px; */
   padding-left: 15px;
@@ -30,13 +30,13 @@
 }
 
 .login {
-  margin-left: 70px;
+  margin-left: 40px;
   font-size: 20px;
 }
 
 .cart {
   font-size: 20px;
-  margin-left: 70px;
+  margin-left: 30px;
 }
 
 /* .line {
@@ -70,9 +70,12 @@
   color: #9a16ca;
   font-size: 25px;
   font-weight: 900;
+  transition-duration: 1s;
+  transition-behavior: smooth;
 }
 
 .main-banner {
+  margin-top: 20px;
   width: 90vw;
   margin-left: 70px;
 }
@@ -94,9 +97,17 @@
 .category-1 {
   display: flex;
   margin-left: 70px;
-  gap: 15px;
+  gap: 20px;
+}
+
+.category-2 {
+  display: flex;
+  margin-left: 70px;
+  gap: 20px;
+  margin-top: 30px;
 }
 
 .photos img {
-  width: 150px;
+  width: 120px;
+  height: 120px;
 }
