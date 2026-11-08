@@ -51,21 +51,23 @@
 
 .necessitys {
   display: flex;
-  filter: blur(#9a16ca);
-  color: #9a16ca;
+  margin-top: 20px;
+  border: 1px solid #ebecef;
+  height: 55px;
+  padding: 15px;
+  gap: 10px;
 }
 
-.images {
-  width: 30px;
-  /* border-image: #9a16ca; */
-  filter: blur(#9a16ca);
-  height: 30px;
-  /* background-color: grey; */
-  /* color: grey; */
-  /* display: flex; */
+.all {
+  display: flex;
+  margin-left: 60px;
+  font-size: 20px;
+  color: #586274;
+  /* gap: 5px; */
 }
 
-.images:hover .necessitys {
-  scale: 1.1;
+.all:hover {
   color: #9a16ca;
+  font-size: 25px;
+  font-weight: 900;
 }
