@@ -60,14 +60,43 @@
 
 .all {
   display: flex;
-  margin-left: 60px;
+  margin-left: 45px;
   font-size: 20px;
   color: #586274;
-  /* gap: 5px; */
+  gap: 10px;
 }
 
 .all:hover {
   color: #9a16ca;
   font-size: 25px;
   font-weight: 900;
+}
+
+.main-banner {
+  width: 90vw;
+  margin-left: 70px;
+}
+
+.category {
+  margin-top: 20px;
+  margin-left: 80px;
+  padding: 10px;
+  display: flex;
+  gap: 1100px;
+  /* text-align: center; */
+}
+
+.cat {
+  color: red;
+  font-size: 18px;
+}
+
+.category-1 {
+  display: flex;
+  margin-left: 70px;
+  gap: 15px;
+}
+
+.photos img {
+  width: 150px;
 }
